@@ -33,7 +33,7 @@ cp *.so.* /usr/lib
 chmod +x ./*
 ```
 # 配置
-如果以上步骤没有问题，你就可以开始修改openbts.db了，以下需要修改
+如果以上步骤没有问题，你就可以开始修改OpenBTS.db了，以下需要修改
 ```javascript
 GSM.Radio.NeedBSIC = 1
 GSM.Radio.Band = 900
