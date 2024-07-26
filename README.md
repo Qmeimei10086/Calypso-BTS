@@ -1,4 +1,7 @@
 # 本程序仅供学习，请勿用于非法
+# 指路:
+OpenBTS编译与使用  
+https://github.com/Qmeimei10086/OpenBTS-gsm-mitm  
 # 前言
 本来仓库自osmocom-bb的calypso-BTS项目，该项目致力于在c118上实现transceiver功能，从而使c118成为廉价的BTS设备  
 该仓库仅作为记录和保存文件方便使用  
@@ -58,7 +61,10 @@ cd osmocom-bb/src/host/osmocon
 不出意外你的openbts已经成功运行起来了啦  
 ps：  
 我其实将transceiver的unix_socket路径修改为/tmp/trx，这是防止在gsm中间人攻击时和
-mobile程序的unix_socket路径重叠  
+mobile程序的unix_socket路径重叠 
+# 关于作者
+bilibili：https://space.bilibili.com/431312664?spm_id_from=333.1007.0.0  
+有问题来这里找我，本人已高三，可能不能及时回  
 
 
 
