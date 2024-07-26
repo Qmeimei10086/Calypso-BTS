@@ -40,14 +40,16 @@ GSM.Radio.Band = 900
 GSM.CellSelection.Neighbors =(留空)
 GSM.RACH.MaxRetrans = 3
 GSM.RACH.TxInteger = 8
-GSM.Radio.C0 = 你的afrcn（注意不要和别的基站重叠了）
+GSM.Radio.C0 = 你的arfcn（注意不要和别的基站重叠了）
 Control.LUR.OpenRegistration =.*
 ```
 在OpenBTS目录下创建transceiver文件，并且用chmod +x transceiver为他赋予权限，内容为 
 ```javascript
 #!/bin/bash
-exec <你osmocombb的路径>/src/host/layer23/src/transceiver <你附近最强基站的afrcn>
+exec <你osmocombb的路径>/src/host/layer23/src/transceiver <你附近最强基站的arfcn>
 ```
+什么，你不知道哪个基站最强?!  
+快用cell_log扫一下，TA最小的就是离你最近的基站  
 # 使用
 ```javascript
 #刷入固件
