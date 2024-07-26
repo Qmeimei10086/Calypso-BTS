@@ -1,2 +1,3 @@
-# Calypso-BTS
-一个基于c118的便宜transceiver方案
+# 本程序仅供学习，请勿用于非法
+# 前言
+本来自osmocombb的calypsoBTS项目，改
