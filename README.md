@@ -55,7 +55,10 @@ cd osmocom-bb/src/host/osmocon
 ./sipauthserve
 ./OpenBTS
 ```
-不出意外你的openbts已经成功运行起来了啦
+不出意外你的openbts已经成功运行起来了啦  
+ps：  
+我其实将transceiver的unix_socket路径修改为/tmp/trx，这是防止在gsm中间人攻击时和
+mobile程序的unix_socket路径重叠  
 
 
 
