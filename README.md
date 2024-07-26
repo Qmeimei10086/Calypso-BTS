@@ -19,7 +19,7 @@ ps：
 2.其实可以直接 make HOST_layer23_CONFARGS=--enable-transceiver，但没必要  
 3.如果你是自己下载的osmocombb，把 osmocom-bb/src/target/firmware 下的 Makefile 中的DCONFIG_TX_ENABLE 宏打
 开： 
-# Uncomment this line if you want to enable Tx (Transmit) Support.
+#Uncomment this line if you want to enable Tx (Transmit) Support.
 #CFLAGS += -DCONFIG_TX_ENABLE
 然后到 src 目录下编译，不过我已经帮你打开了捏(/ω＼)  
 ## 关于release版
